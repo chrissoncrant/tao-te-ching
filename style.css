@@ -1,0 +1,91 @@
+:root {
+    --black: black;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+    min-height: 100vh;
+    font-size: 18px;
+}
+
+picture {
+    display: block;
+}
+
+picture img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+ol, ul {
+    list-style: none;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    line-height: 1.1;
+}
+
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    overflow-wrap: break-word;
+    max-width: 65ch;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+p a {
+    display: inline;
+    text-decoration: underline;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.7em;
+}
+
+.inner-column {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0px 24px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0.3em;
+}
+
+.intro-section h2 {
+    font-style: italic;
+}
+
+.inner-column > * {
+    border: 2px solid black;
+}
