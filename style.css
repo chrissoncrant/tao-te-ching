@@ -82,6 +82,10 @@ h2 {
     margin-bottom: 0.3em;
 }
 
+span.date {
+    display: block;
+}
+
 .intro-section h2 {
     font-style: italic;
 }
