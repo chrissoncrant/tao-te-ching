@@ -59,6 +59,7 @@ p {
 a {
     display: block;
     text-decoration: none;
+    color: #46680f;
 }
 
 p a {
@@ -66,7 +67,7 @@ p a {
     text-decoration: underline;
 }
 header {
-    background-color: rgb(162, 197, 105);
+    background-color: #a2c569;
 }
 
 header h1 {
@@ -113,9 +114,25 @@ hr {
     border: 2px solid black;
 } */
 
+.source-section a {
+    font-style: normal;
+}
+
+/* BACKGROUND SHADINGS ############### */
+
+.bg-one {
+    background-color: rgba(0, 0, 0, 0.082);
+}
+
+/* CHAPTER SECTION ################ */
+
 .chapter-number {
     font-size: 2.2em;
     font-weight: normal;
+}
+
+.verse:not(:last-child) {
+    margin-bottom: 1em;
 }
 
 span.date {
@@ -128,6 +145,11 @@ span.date {
     margin-bottom: 1.5em;
 }
 
-.bg-one {
-    background-color: rgba(0, 0, 0, 0.082);
+.writing-container {
+    margin-top: 1em;
 }
+
+.writing-container p + p {
+    margin-top: 1em;
+}
+
