@@ -68,6 +68,7 @@ p a {
 }
 header {
     background-color: #a2c569;
+    margin-bottom: 1.5em;
 }
 
 header h1 {
@@ -81,13 +82,8 @@ header h1 {
     width: 100%;
     max-width: 1000px;
     margin: auto;
-    padding: 0px 24px;
+    padding: 0px 1.5em;
 }
-
-/* main {
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
-} */
 
 h2 {
     font-size: 2em;
@@ -96,12 +92,12 @@ h2 {
 
 hr {
     padding: 0;
-    margin: 0;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
 
-.page-section {
-    margin-top: 1.5em;
-    padding: 10px 0px;
+.intro-section {
+    margin-bottom: 1em;
 }
 
 .intro-section h2 {
@@ -109,9 +105,9 @@ hr {
     font-weight: normal;
 }
 
-/* .inner-column > * {
-    border: 2px solid black;
-} */
+.source-section {
+    margin-bottom: 1.5em;
+}
 
 .source-section a {
     font-style: normal;
@@ -122,6 +118,11 @@ hr {
 .bg-one {
     background-color: rgba(0, 0, 0, 0.082);
 }
+
+.bg-two {
+    background-color: rgba(0, 0, 0, 0.048);
+}
+
 
 /* CHAPTER SECTION ################ */
 
